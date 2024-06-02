@@ -1,4 +1,19 @@
-# Computer-Vision
-### Computer vision class assignments
-1. The first assignment is about photometric stereo where we are tasked to perform the normal map and depth map as well as 
-reconstructed 3D version.
+# Image Stitching
+
+Image Stitching algorithm with multi-panoramas, gain compensation, and multi-band blending.
+
+Open CV is required.
+
+## Usage
+
+Simply: run sh run.sh 
+
+the results will be saved under Photos/Base/result and Photos/Challenge/result
+Respectively.
+
+For more options, see the command line help:
+
+    python main.py --help
+
+
+The implementation is strongly based on the 2007 paper **Automatic Panoramic Image Stitching using Invariant Features** by Matthew Brown and David G. Lowe : <http://matthewalunbrown.com/papers/ijcv2007.pdf>
