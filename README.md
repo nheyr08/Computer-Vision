@@ -1,8 +1,6 @@
 # Image Stitching
-
 Image Stitching algorithm with multi-panoramas, gain compensation, and multi-band blending.
-
-Open CV is required.
+#### part of the computer vision assignment 3 @NYCU spring 2024
 
 ## Usage
 
