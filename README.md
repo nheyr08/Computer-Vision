@@ -8,14 +8,14 @@ git clone https://github.com/nheyr08/Image-Stiching.git
 cd Image-Stiching
 ```
 Please make sure your Python env supports both cv2 and numpy.
-The following snippet creates a new environment with the tested version of python (img_stich) and installs opencv and numpy in parallel ~
+The following snippet creates a new environment (img_stich) with the tested version of python and installs opencv and numpy in parallel ~
 ```
-conda create --name img_stich python=3.8
-conda activate img_stich
+conda create --name img_stitch python=3.8
+conda activate img_stitch
 conda install -c conda-forge opencv & conda install numpy
 ```
 
-Now simply run Simply run: 
+Now simply run: 
 ``sh run.sh ``
 
 the results will be saved under Photos/Base/result and Photos/Challenge/result
@@ -25,7 +25,7 @@ For more options, see the command line help:
 
     python main.py --help
 Feel free to add your pictures to test the program!  
-For any issues welcome to open a PR and Don't forget to star if you find this repository helpful~
+For any issues welcome to open a PR and Don't forget to star 👍 if you find this repository helpful~
 
 ## Reference
 
